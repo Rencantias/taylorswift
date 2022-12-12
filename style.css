@@ -1,0 +1,58 @@
+body{
+    font-family: BASKE1;
+}
+nav {
+            margin:auto;
+            text-align: center;
+            width: 100%;
+            font-size: 20px;
+            position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #000;
+
+        } 
+
+        nav ul {
+            padding: 0 0px;
+            list-style: none;
+            position: relative;
+            display: inline-table;
+            width: 100%;
+         }
+
+        nav ul li{
+            float:right;
+        }
+
+        nav ul li:hover{
+            text-decoration: underline;
+        }
+
+        nav ul li:hover a{
+            color:#A9A9A9;
+        }
+
+        nav ul li a{
+            display: block;
+            padding: 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        form {
+    overflow: hidden;
+}
+ 
+label {
+    float: left;
+    width: 200px;
+    padding-right: 0px;
+}
+ 
+input textarea{
+    float: left;
+}
+ 
+button {
+    float: right;
